@@ -1,0 +1,324 @@
+@media screen and (max-width:1024px) {
+    .cantainer{
+        width: 960px;
+    }
+    .box1{
+        width: 100%;
+    }
+    
+}
+@media screen and (max-width:768px) {
+    .cantainer{
+        width: 100%;
+    }
+    .nav-icon{
+        font-size:14px;
+        padding-left: 8px;
+    }
+    .call-icon{
+        font-size: 15px;
+    }
+    .call{
+        font-size: 14px;
+    }
+    .hed-logo1{
+        height: 60px;
+        width: 130px;
+        padding-left: 20px;
+    }
+    .hed-cantain a{
+        font-size: 14px;
+    }
+    .head-icon{
+        padding-right: 20px;
+    }
+    /* ******** bener ****** */
+    .box3{
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 446px;
+    }
+    .baner-text1{
+        font-size: 45px;
+        text-align: center;
+    }
+    .baner-text2{
+        font-size: 24px;
+        text-align: center;
+    }
+    .baner-text3{
+        text-align: center;
+        font-size: 18px;
+        width: 100%;
+    }
+    .mainbenar-btn{
+        display: flex;
+        justify-content: center;
+    }
+    /* ************* about **************** */
+    .maim-about{
+        display: block;
+    }
+    .about-img1 img{
+        width:750px;
+    }
+    /* ******gellery******************* */
+    .photo-text1{
+        padding-top: 60%;
+     }
+
+     .gellery{
+        width: 100%;
+        flex-wrap: wrap;
+     }
+     .geleery-photo1{
+        margin-top: 30px;
+     }
+     .geleery-photo2{
+        margin-top: 30px;
+     }
+     .photo-text2::after{
+        content: '';
+        height: 15px;
+        width: 200px;
+        background-color: #113E21;
+        border-radius: 15px;
+        display: block;
+        margin-left: 36%;
+        margin-top: 15px;
+    }
+     /* *********** services *********** */
+     .ser-main{
+        flex-direction: column;
+     }
+     .ser-text3{
+        padding-top: 20px;
+     }
+     .ser-text1{
+        padding-left: 30px;
+     }
+     .ser-text2{
+        padding-left: 30px;
+     }
+     .ser-sec-main{
+        width: 100%;
+        flex-wrap: wrap;
+     }
+     .ser-sec-01{
+        margin-left: 30px;
+        margin-right: 30px;
+     }
+     /* ************ blog ************* */
+     .blog-text2::after{
+        content: '';
+        height: 15px;
+        width: 200px;
+        background-color: #113E21;
+        border-radius: 15px;
+        display: block;
+        margin-top: 15px;
+        margin-left: 36%;
+    }
+     .blog-sec-main{
+        width: 100%;
+        flex-wrap: wrap;
+     }
+     .blog-sec{
+        margin-left: 22%;
+     }
+     .blog-sec2{
+        margin-top: 35%;
+        margin-left: 22%;
+     }
+    .blog-sec3{
+        margin-top: 35%;
+        margin-left: 22%;
+     }
+     /* ********** Subbanner *********** */
+     .sub2-main{
+        flex-wrap: wrap;
+     }
+     .sub2-img4{
+        display: none;
+     }
+     .next-text2::after{
+        content: '';
+        height: 15px;
+        width: 200px;
+        background-color: #113E21;
+        border-radius: 15px;
+        display: block;
+        margin-top: 15px;
+        margin-left: 36%;
+    }
+    /* ******* footer ******** */
+    .footer-text4{
+        font-size: 18px;
+    }
+    .footer-text5{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width:620px){
+    .box .fa-bars{
+        display: block;
+    }
+    .menu{
+        display: none;
+        position: absolute;
+        left:10px;
+        right:0;
+        text-align: center;
+        background-color: #e0e0e0;
+    }
+    input[type=checkbox]:checked ~ .menu{
+        display: block;
+    }
+    .head-icon{
+        display: none;
+    }
+    .email-icon{
+        display: none;
+    }
+    .baner-text3{
+        font-size: 12px;
+    }
+    /* ******** banner ******* */
+    .box3{
+        background-size: auto;
+        height: 320px;
+    }
+    .baner-text{
+        padding-top:5% ;
+    }
+    .about-img01{
+       display: none;
+    }
+    .about-text3{
+        width: 400px;
+    }
+    .photo-text2::after{
+        content: '';
+        height: 15px;
+        width: 200px;
+        background-color: #113E21;
+        border-radius: 15px;
+        display: block;
+        margin-left: 25%;
+        margin-top: 15px;
+    }
+    .geleery-photo2{
+        margin: 0;
+    }
+    .geleery-photo5{
+        margin-top: 0;
+    }
+    .ser-text3{
+        width: 300px;
+    }
+    .sub-text1{
+        font-size: 18px;
+    }
+    .blog-text2::after{
+        content: '';
+        height: 15px;
+        width: 200px;
+        background-color: #113E21;
+        border-radius: 15px;
+        display: block;
+        margin-top: 15px;
+        margin-left: 25%;
+    }
+    .blog-sec ,.blog-sec2 ,.blog-sec3{
+        margin: 0px;
+        margin-top: 70%;
+    }
+    .sub2-img01{
+        height: 50px;
+        width: 50px;
+    }
+    .sub2-text1{
+        font-size: 30px;
+    }
+    .sub2-text2{
+        font-size: 24px;
+    }
+    .next-text2::after{
+        margin-left: 25%;
+    }
+    .next-btn1{
+        margin-left: 5px;
+    }
+    .box8{
+        background-size: auto;
+        background: none;
+    }
+    .footer-sec{
+        flex-direction: column;
+        padding-left: 50px;
+    }
+    .footer-sec-01{
+        padding-top: 30px;
+    }
+   
+}
+@media screen and (min-width:620px) and (max-width:425px) {
+
+    .cantainer{
+        width: 100%;
+    }
+    .nav-icon{
+        display: none;
+    }
+    .oo{
+        font-size:8px;
+    }
+    .box1{
+        width: 100%;
+        height:40px;
+        background-color: antiquewhite
+    }
+    .about-text3{
+        width: 200px;
+    }
+    .photo-text2::after{
+        content: '';
+        height: 15px;
+        width: 200px;
+        background-color: #113E21;
+        border-radius: 15px;
+        display: block;
+        margin-left: 25%;
+        margin-top: 15px;
+    }
+    .geleery-photo5{
+        margin-top: 0;
+    }
+
+
+}
+@media screen and (max-width:325px) {
+    .cantainer{
+        width: 100px;
+    }
+    .box1{
+        width: 100%;
+        height: 20px;
+    }
+
+    .cantainer{
+        width: 100%;
+    }
+    .nav-icon{
+        display: none;
+    }
+    .oo{
+        font-size:8px;
+    }
+    .box1{
+        width: 100%;
+        height:40px;
+        background-color: antiquewhite
+    }
+}
+
